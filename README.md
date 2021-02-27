@@ -236,6 +236,10 @@ Also look at:
 
 - Application panel Provides tools for inspecting and debugging modern web apps (also known as Progressive Web Apps). This includes inspection of service workers and web app manifests.
 
+#### Proxy
+
+Get OWASP ZAP or Burp or any other proxy your prefer. Set it, add extensions, see more.
+
 ### Flow
 
 An idea of the kind of bugs you can find
