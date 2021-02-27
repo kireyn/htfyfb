@@ -99,9 +99,9 @@ scheme://[user:password@]domain:port/path?query_string#fragment_id
 
 - The domain name or literal numeric IP address gives the destination location for the URL. A literal numeric IPv6 address may be given, but must be enclosed in [ ] e.g.[db8:0cec::99:123a].
 
-- The domain google.com, or its numeric IP address 173.194.34.5, is the address of Google’s website.
+The domain google.com, or its numeric IP address 173.194.34.5, is the address of Google’s website.
 
-- The domain name portion of a URL is not case sensitive since DNS ignores case:
+The domain name portion of a URL is not case sensitive since DNS ignores case:
 
 http://en.example.org/ and HTTP://EN.EXAMPLE.ORG/ both open the same page.
 
@@ -144,7 +144,7 @@ The first line of an HTTP request contains three fields separated by spaces.
 - Path 	The second field is the path to the resource being accessed. This field can also be suffixed with a query string.
 - Version 	The third and final field is used to denote the HTTP version.
 
-The next set of lines contain HTTP header value pairs. These are used to specify various attributes of a request. The headers are terminated with a new line, which is necessary for the server to validate the request. This can be followed by the request body, which we will analyze in later sections of this module.
+The next set of lines contain HTTP header value pairs. These are used to specify various attributes of a request. The headers are terminated with a new line, which is necessary for the server to validate the request. This can be followed by the request body, which we will analyze in later.
 
 
 ##### Response
